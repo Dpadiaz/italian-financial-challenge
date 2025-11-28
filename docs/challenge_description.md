@@ -179,10 +179,19 @@ A complete, well-documented notebook containing:
 - Model interpretation (SHAP values, partial dependence plots, etc.)
 - Business insights and recommendations
 
-### 2. Presentation 
+### 2. Presentation (40% of grade)
+
+**Duration**: 10-15 minutes + 5 minutes Q&A
+
+**Structure**:
+1. Problem definition and business impact (2 min)
+2. Data exploration key findings (3 min)
+3. Modeling approach and innovations (5 min)
+4. Results and interpretation (3 min)
+5. Limitations and future work (2 min)
 
 **Requirements**:
-- Clear, professional 
+- Clear, professional slides
 - Focus on insights, not just technical details
 - Business-oriented language (imagine presenting to executives)
 - Demonstration of critical thinking
@@ -227,19 +236,17 @@ import pandas as pd
 # Load training data
 train_df = pd.read_csv('data/processed/train_data.csv')
 
-# Load test data (no target leakage)
-test_df = pd.read_csv('data/processed/test_data.csv')
+# Load test features (no targets provided)
+test_df = pd.read_csv('data/processed/test_features.csv')
 
-# Load data dictionary
-data_dict = pd.read_csv('data/processed/data_dictionary.csv')
+print(f"Train shape: {train_df.shape}")
+print(f"Test shape: {test_df.shape}")
 ```
 
 ### 3. Choose Your Challenge
 
 Open the starter notebook template:
-- `notebooks/challenge1_bankruptcy_starter.ipynb` (Challenge 1)
-- `notebooks/challenge2_health_class_starter.ipynb` (Challenge 2)
-- `notebooks/challenge3_revenue_forecast_starter.ipynb` (Challenge 3)
+- `notebooks/starter_template.ipynb` - A comprehensive template for all three challenges
 
 ### 4. Work Through the Sections
 
