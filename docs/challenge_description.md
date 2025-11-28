@@ -139,7 +139,7 @@ You will work with a dataset containing financial and operational data from Ital
 
 ## 🛠️ Required Deliverables
 
-### 1. Jupyter Notebook (60% of grade)
+### 1. Jupyter Notebook
 A complete, well-documented notebook containing:
 
 **A. Exploratory Data Analysis**
@@ -179,16 +179,14 @@ A complete, well-documented notebook containing:
 - Model interpretation (SHAP values, partial dependence plots, etc.)
 - Business insights and recommendations
 
-### 2. Presentation (40% of grade)
-
-**Duration**: 10-15 minutes + 5 minutes Q&A
+### 2. Presentation 
 
 **Structure**:
-1. Problem definition and business impact (2 min)
-2. Data exploration key findings (3 min)
-3. Modeling approach and innovations (5 min)
-4. Results and interpretation (3 min)
-5. Limitations and future work (2 min)
+1. Problem definition and business impact
+2. Data exploration key findings
+3. Modeling approach and innovations 
+4. Results and interpretation 
+5. Limitations and future work 
 
 **Requirements**:
 - Clear, professional slides

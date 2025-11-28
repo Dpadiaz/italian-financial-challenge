@@ -95,8 +95,7 @@ italian-financial-challenge/
 ## 📝 What You Need to Submit
 
 1. **Jupyter Notebook** (.ipynb) - Your complete analysis
-2. **PDF Export** - Of your executed notebook
-3. **Presentation Slides** (PDF/PPTX) - 10-15 minutes
+3. **Presentation Slides** (PDF/PPTX) - if you think it's necessary
 
 📖 **See [Challenge Description](docs/challenge_description.md) for evaluation criteria and grading**
 
@@ -158,7 +157,6 @@ ls data/processed/  # Should show: train_data.csv, test_features.csv
 
 ## ⚠️ Important Rules
 
-- **Individual Work**: This is an individual project. You may discuss concepts but must write your own code.
 - **Cite Sources**: Always cite external code, tutorials, or resources used.
 - **Educational Use**: This data is for educational purposes only. Do not use for real financial decisions.
 
