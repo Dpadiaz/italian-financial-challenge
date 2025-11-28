@@ -130,8 +130,9 @@ You will work with a dataset containing financial and operational data from Ital
 - `revenue_change`: Continuous (%) - for Challenge 3
 
 ### Dataset Size
-- **Training set**: ~15,000 companies × 5 years = ~75,000 observations
-- **Test set**: ~5,000 companies × 2 years = ~10,000 observations
+- **Training set**: 11,828 observations (2018-2021)
+- **Test set**: 5,811 observations (2022-2023)
+- **Companies**: 2,999 unique companies
 - **Features**: 25+ raw features + unlimited engineered features
 
 ---
@@ -141,7 +142,7 @@ You will work with a dataset containing financial and operational data from Ital
 ### 1. Jupyter Notebook (60% of grade)
 A complete, well-documented notebook containing:
 
-**A. Exploratory Data Analysis (15%)**
+**A. Exploratory Data Analysis**
 - Dataset overview and statistics
 - Missing values analysis
 - Distribution analysis of key variables
@@ -149,21 +150,21 @@ A complete, well-documented notebook containing:
 - Target variable analysis (class distribution, trends)
 - Visualizations with clear insights
 
-**B. Data Preprocessing (15%)**
+**B. Data Preprocessing **
 - Missing value handling with justification
 - Outlier detection and treatment
 - Feature scaling/normalization strategy
 - Encoding categorical variables
 - Temporal train/test split (no data leakage!)
 
-**C. Feature Engineering (20%)**
+**C. Feature Engineering **
 - Creation of new financial indicators
 - Temporal features (trends, year-over-year changes)
 - Interaction features
 - Domain knowledge application
 - Feature selection methodology
 
-**D. Model Development (30%)**
+**D. Model Development **
 - Baseline model(s)
 - At least 3 different model types (e.g., Logistic Regression, Random Forest, XGBoost, Neural Networks)
 - Hyperparameter tuning strategy
@@ -171,25 +172,17 @@ A complete, well-documented notebook containing:
 - Imbalance handling techniques (for classification challenges)
 - Final model selection with justification
 
-**E. Results Analysis (20%)**
+**E. Results Analysis **
 - Performance metrics on test set
 - Feature importance analysis
 - Error analysis (what types of cases does the model misclassify?)
 - Model interpretation (SHAP values, partial dependence plots, etc.)
 - Business insights and recommendations
 
-### 2. Presentation (40% of grade)
-**Duration**: 10-15 minutes + 5 minutes Q&A
-
-**Structure**:
-1. Problem definition and business impact (2 min)
-2. Data exploration key findings (3 min)
-3. Modeling approach and innovations (5 min)
-4. Results and interpretation (3 min)
-5. Limitations and future work (2 min)
+### 2. Presentation 
 
 **Requirements**:
-- Clear, professional slides
+- Clear, professional 
 - Focus on insights, not just technical details
 - Business-oriented language (imagine presenting to executives)
 - Demonstration of critical thinking
@@ -198,42 +191,12 @@ A complete, well-documented notebook containing:
 
 ## 📝 Evaluation Criteria
 
-| Criterion | Weight | Description |
-|-----------|--------|-------------|
-| **Technical Quality** | 40% | Sound methodology, proper validation, appropriate techniques for imbalance/temporal issues |
-| **Creativity** | 20% | Original feature engineering, innovative approaches, going beyond baseline |
-| **Interpretability** | 20% | Feature importance, error analysis, business insights, model explanation |
-| **Communication** | 20% | Code clarity, documentation, presentation quality, storytelling |
-
-### Specific Grading Elements
-
-**Technical Quality** includes:
-- Correct train/test split (temporal awareness)
-- Appropriate handling of class imbalance (if applicable)
-- Proper cross-validation strategy
-- Sound hyperparameter tuning
-- No data leakage
-- Correct metric calculation
-
-**Creativity** includes:
-- Novel feature engineering
-- Domain knowledge application
-- Ensemble methods or hybrid approaches
-- Advanced techniques (SHAP, calibration, stacking, etc.)
-
-**Interpretability** includes:
-- Feature importance analysis
-- Error analysis and insights
-- Model explanation techniques
-- Business recommendations
-- Understanding of model limitations
-
-**Communication** includes:
-- Clean, well-commented code
-- Clear markdown explanations
-- Professional visualizations
-- Logical flow in notebook
-- Effective presentation
+| Criterion | Description |
+|-----------|-------------|
+| **Technical Quality** | Sound methodology, proper validation, appropriate techniques for imbalance/temporal issues |
+| **Creativity** | Original feature engineering, innovative approaches, going beyond baseline |
+| **Interpretability** | Feature importance, error analysis, business insights, model explanation |
+| **Communication** | Code clarity, documentation, presentation quality, storytelling |
 
 ---
 
@@ -355,8 +318,6 @@ Follow the structure in the starter notebook, completing each section:
 ## ⚠️ Important Notes
 
 ### Academic Integrity
-- This is an **individual project**
-- You may discuss concepts with peers, but code and analysis must be your own
 - Cite any external code or resources you use
 - Plagiarism will result in severe penalties
 
@@ -368,33 +329,9 @@ Follow the structure in the starter notebook, completing each section:
 
 ### Submission
 - Submit your complete notebook (.ipynb file)
-- Include a PDF export of your notebook
 - Ensure all cells execute without errors
-- Include your presentation slides (PDF or PPTX)
 
 ---
 
-## 🆘 Getting Help
-
-1. **Office Hours**: Check the course calendar
-2. **Discussion Forum**: Post questions (no code solutions)
-3. **Documentation**: Read the data dictionary and modeling guidelines
-4. **Debugging**: Start with a small subset of data first
-
----
-
-## 📅 Timeline
-
-| Milestone | Deadline |
-|-----------|----------|
-| Challenge selection | Week 1 |
-| EDA completion | Week 2 |
-| Baseline model | Week 3 |
-| Feature engineering | Week 4 |
-| Final model | Week 5 |
-| Notebook submission | Week 6 |
-| Presentations | Week 7 |
-
----
 
 **Good luck with your challenge! Remember: the goal is to learn, experiment, and develop your skills in applied machine learning. Focus on understanding over performance, and interpretation over complexity.**
