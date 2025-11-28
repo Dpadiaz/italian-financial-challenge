@@ -150,7 +150,7 @@ A complete, well-documented notebook containing:
 - Target variable analysis (class distribution, trends)
 - Visualizations with clear insights
 
-**B. Data Preprocessing **
+**B. Data Preprocessing**
 - Missing value handling with justification
 - Outlier detection and treatment
 - Feature scaling/normalization strategy
