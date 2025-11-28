@@ -157,14 +157,14 @@ A complete, well-documented notebook containing:
 - Encoding categorical variables
 - Temporal train/test split (no data leakage!)
 
-**C. Feature Engineering **
+**C. Feature Engineering**
 - Creation of new financial indicators
 - Temporal features (trends, year-over-year changes)
 - Interaction features
 - Domain knowledge application
 - Feature selection methodology
 
-**D. Model Development **
+**D. Model Development**
 - Baseline model(s)
 - At least 3 different model types (e.g., Logistic Regression, Random Forest, XGBoost, Neural Networks)
 - Hyperparameter tuning strategy
@@ -172,7 +172,7 @@ A complete, well-documented notebook containing:
 - Imbalance handling techniques (for classification challenges)
 - Final model selection with justification
 
-**E. Results Analysis **
+**E. Results Analysis**
 - Performance metrics on test set
 - Feature importance analysis
 - Error analysis (what types of cases does the model misclassify?)
