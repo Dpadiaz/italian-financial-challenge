@@ -139,14 +139,14 @@ See [docs/data_dictionary.md](docs/data_dictionary.md) for complete variable des
    - 10-15 minutes + Q&A
    - Focus on insights, not just technical details
 
-### Evaluation Criteria (100 points)
+### Evaluation Criteria 
 
-| Category | Points | What to Focus On |
-|----------|--------|------------------|
-| **Technical Quality** | 40 | Proper methodology, validation, imbalance handling |
-| **Creativity** | 20 | Feature engineering, innovative approaches |
-| **Interpretability** | 20 | Feature importance, error analysis, business insights |
-| **Communication** | 20 | Clear code, visualizations, presentation |
+| Category | What to Focus On |
+|----------|------------------|
+| **Technical Quality** | Proper methodology, validation, imbalance handling |
+| **Creativity** | Feature engineering, innovative approaches |
+| **Interpretability** | Feature importance, error analysis, business insights |
+| **Communication** | Clear code, visualizations, presentation |
 
 See [docs/challenge_description.md](docs/challenge_description.md) for detailed rubric.
 
@@ -274,9 +274,6 @@ ls data/processed/
 
 ### Academic Integrity
 
-- This is an **INDIVIDUAL** project
-- You may **discuss concepts** with peers
-- You **MUST write your own code** and analysis
 - **Cite all external resources** (code snippets, tutorials, etc.)
 - Plagiarism will result in severe penalties
 
@@ -291,23 +288,9 @@ ls data/processed/
 
 - Ensure all code cells execute without errors
 - Include both .ipynb and PDF versions
-- Submit presentation slides
+- Submit presentation slides if any
 - Check that all visualizations are visible
 - Verify you meet minimum performance targets
-
----
-
-## 📅 Suggested Timeline
-
-| Week | Milestone | Tasks |
-|------|-----------|-------|
-| 1 | Challenge Selection | Choose challenge, explore data |
-| 2 | EDA Complete | Understand data, identify patterns |
-| 3 | Baseline Model | Basic preprocessing, simple model |
-| 4 | Feature Engineering | Create domain-informed features |
-| 5 | Final Model | Tune hyperparameters, optimize |
-| 6 | Interpretation | Feature importance, error analysis, insights |
-| 7 | Submission | Final notebook, presentation prep |
 
 ---
 
@@ -363,32 +346,6 @@ italian-financial-challenge/
 - Do your analysis in `notebooks/`
 - Put reusable code in `src/`
 - Keep it simple - notebooks are fine for the whole project!
-
----
-
-## 📧 Getting Help
-
-1. **Read the documentation** - Most questions are answered there
-2. **Attend office hours** - Ask specific questions
-3. **Check the FAQ** in the challenge description
-4. **Discussion forum** - Help each other (concepts only, not solutions!)
-
-**Good question:** "How should I handle the class imbalance in bankruptcy prediction?"
-**Bad question:** "Can you tell me what features to engineer?"
-
----
-
-## 🎓 Learning Objectives
-
-By completing this challenge, you will:
-
-✓ Work with realistic financial data
-✓ Handle class imbalance in classification
-✓ Perform time series aware validation
-✓ Engineer domain-informed features
-✓ Interpret machine learning models
-✓ Communicate technical findings to business audiences
-✓ Write clean, reproducible code
 
 ---
 
