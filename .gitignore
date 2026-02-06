@@ -62,7 +62,7 @@ plots/
 figures/
 
 #(ADDED BY STUDENT) track images in the Images folder
-Images/
+!Images/
 !Images/**
 !correlation_heatmap.png
 
