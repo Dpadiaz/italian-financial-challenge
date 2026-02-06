@@ -61,6 +61,11 @@ data/external/
 plots/
 figures/
 
+#(ADDED BY STUDENT) track images in the Images folder
+Images/
+!Images/**
+!correlation_heatmap.png
+
 # Logs
 *.log
 
